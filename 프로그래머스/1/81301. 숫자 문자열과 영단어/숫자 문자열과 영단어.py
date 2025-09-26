@@ -21,3 +21,5 @@ def solution(s):
             answer += i
     
     return int(answer)
+
+#푼 뒤 피드백에서 배운점: replace()라는 함수를 알게됨
