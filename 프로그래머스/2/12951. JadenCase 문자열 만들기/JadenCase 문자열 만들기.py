@@ -8,9 +8,5 @@ def solution(s):
             else:
                 answer += s[i].lower()
         else:
-            if s[i-1] == ' ':
-                answer += s[i]
-            elif s[i-1] != ' ':
-                answer += s[i]
-
+            answer += s[i]
     return answer
