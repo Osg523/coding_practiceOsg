@@ -37,3 +37,44 @@ def solution(arr):
         answer *= k ** max_exp[k]
 
     return answer
+
+
+
+'''
+def solution(arr):
+    answer = 1
+    sl = []
+    nl = []
+    nl1 = []
+    nl1 = set()
+
+    for i in range(2, 101): 
+        is_prime = True
+        for j in range(2, int(i ** 0.5) + 1):  
+            if i % j == 0:  
+                is_prime = False
+                break
+        if is_prime:
+            nl1.add(i)
+            
+    for i in arr:
+        s = set()
+        for n in nl1:
+            if i % n == 0:
+                s.add(n)
+        sl.append(s)
+    s = sl[0]
+    for i in sl[1:]:
+        s = s&i
+    for i in arr:
+        n = i
+        for j in s:
+            n = n // j
+        nl.append(n)
+    for i in nl:
+        answer *= i
+    for i in s:
+        answer *= i
+        
+    return answer
+'''
