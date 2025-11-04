@@ -4,3 +4,5 @@ def solution(s):
     else:
         answer = int(s)
     return answer
+
+# answer = int(s) 만 해도 됨
