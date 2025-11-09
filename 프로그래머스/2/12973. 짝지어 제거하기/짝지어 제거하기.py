@@ -37,7 +37,7 @@ def solution(s):
 
     return answer
 '''
-''' 시간복잡도 O(n^2)이라 정확도는 맞지만 효율성 부분에서 실패함
+''' 시간복잡도 O(n^2)이라 정확도는 맞지만 del함수 원인으로 효율성 부분에서 실패함
 def solution(s):
     answer = 0
     a = list(s)
