@@ -37,3 +37,19 @@ def solution(s):
 
     return answer
 '''
+''' 시간복잡도 O(n^2)이라 정확도는 맞지만 효율성 부분에서 실패함
+def solution(s):
+    answer = 0
+    a = list(s)
+    i = 1
+    while i < len(a):
+        if a[i] == a[i-1]:
+            del a[i-1:i+1]
+            if i > 1:
+                i -= 1
+        else:
+            i += 1
+    if a == []:
+        answer = 1
+    return answer
+'''
