@@ -21,3 +21,8 @@ def solution(s, n):
             answer += alp[idx]
 
     return answer
+
+'''
+ord(x): 유니코드 문자 x를 해당 코드 포인트 정수로 변환합니다 (예: ord('A') -> 65).
+chr(i): 유니코드 코드 포인트 정수 i를 해당 문자로 변환합니다 (예: chr(65) -> 'A').
+'''
