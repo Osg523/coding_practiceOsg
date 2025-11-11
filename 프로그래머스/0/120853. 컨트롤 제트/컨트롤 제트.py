@@ -2,7 +2,6 @@ def solution(s):
     answer = 0
     zl = []
     sl = s.split()
-    newS = ''
     for i in range(len(sl)):
         if sl[i] == 'Z':
             zl.append(i)
