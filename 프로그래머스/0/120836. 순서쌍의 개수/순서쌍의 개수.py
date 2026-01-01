@@ -5,4 +5,4 @@ def solution(n):
             answer += 1
     return answer
 
-solution = lambda n: sum(1 for i in range(1,n+1) if n % i == 0)
+#solution = lambda n: sum(1 for i in range(1,n+1) if n % i == 0)
