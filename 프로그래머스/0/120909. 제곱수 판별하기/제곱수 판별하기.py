@@ -1,0 +1,1 @@
+solution = lambda n: 1 if any(i*i == n for i in range(n//2)) else 2
