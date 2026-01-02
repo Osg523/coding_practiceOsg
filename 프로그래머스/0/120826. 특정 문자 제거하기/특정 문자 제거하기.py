@@ -1,0 +1,1 @@
+solution = lambda my_string, letter: "".join(i for i in my_string if i != letter)
