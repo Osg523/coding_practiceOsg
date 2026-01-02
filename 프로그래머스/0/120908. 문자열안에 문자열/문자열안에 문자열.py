@@ -1,0 +1,1 @@
+solution = lambda str1, str2: 1 if str1.find(str2) != -1 else 2
