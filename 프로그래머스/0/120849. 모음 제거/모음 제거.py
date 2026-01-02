@@ -1,0 +1,1 @@
+solution = lambda my_string: "".join(i for i in my_string if 'aeiou'.find(i) == -1)
