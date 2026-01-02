@@ -1,0 +1,1 @@
+solution = lambda num_list: [sum(i%2 == 0 for i in num_list),sum(i%2 == 1 for i in num_list)]
