@@ -1,0 +1,1 @@
+solution = lambda num_list: num_list.index([i for i in num_list if i < 0][0]) if len([i for i in num_list if i < 0]) != 0 else -1
