@@ -1,0 +1,2 @@
+문자열 합치기
+max(int(str(a)+str(b)), int(str(b)+str(a))) ===> int(max(f"{a}{b}", f"{b}{a}"))
