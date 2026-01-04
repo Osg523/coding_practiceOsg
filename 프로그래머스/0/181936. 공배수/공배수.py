@@ -1,0 +1,1 @@
+solution = lambda number, n, m: int(number%n == 0 and number%m == 0)
