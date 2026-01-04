@@ -1,0 +1,1 @@
+solution = lambda n, control: n+sum({"w":1, "a":-10, "s":-1, "d":10}[i] for i in control)
