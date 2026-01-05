@@ -23,3 +23,7 @@ max(int(str(a)+str(b)), int(str(b)+str(a))) ===> int(max(f"{a}{b}", f"{b}{a}"))
   예)s = "abc_def_ghi"
      s.endswith("def", 0, 7)   # True  (s[0:7] == "abc_def")
 
+
+6. translate(), maketrans()
+str.maketrans(...) : “변환표(매핑 테이블) 만들기”
+myString.translate(table) : “표대로 변환/삭제 실행”
