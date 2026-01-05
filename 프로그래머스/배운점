@@ -27,3 +27,9 @@ max(int(str(a)+str(b)), int(str(b)+str(a))) ===> int(max(f"{a}{b}", f"{b}{a}"))
 6. translate(), maketrans()
 str.maketrans(...) : “변환표(매핑 테이블) 만들기”
 myString.translate(table) : “표대로 변환/삭제 실행”
+
+
+7.한줄로 코드 짤 때 if가 for문 앞에 오는 경우와 뒤에 오는 경우의 차이점
+if는 “두 종류”로 쓰이기 때문
+(1)필터용 if (조건이 참인 것만 “걸러내기”) > if만 쓸 경우 > 무조건 for문 뒤
+(2)삼항연산자 if (조건에 따라 “값을 바꾸기”) > if else, if elif else 등 > 상관 없지만 보통 for문 앞
