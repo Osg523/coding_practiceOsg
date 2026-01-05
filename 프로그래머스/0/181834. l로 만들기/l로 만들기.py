@@ -1,0 +1,1 @@
+solution=lambda myString:''.join("l" if i < 'l' else i for i in myString) 
