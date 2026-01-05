@@ -14,3 +14,12 @@ max(int(str(a)+str(b)), int(str(b)+str(a))) ===> int(max(f"{a}{b}", f"{b}{a}"))
 (1)원본 변경 여부: sort()는 리스트 원본을 직접 정렬하고, sorted()는 원본은 그대로 두고 정렬 결과를 만듭니다.
 (2)반환값: sort()는 None을 반환(제자리 정렬), sorted()는 정렬된 새 리스트를 반환합니다.
 (3)사용 대상: sort()는 list 전용 메서드, sorted()는 모든 iterable(리스트/튜플/문자열/set/dict 등) 에 사용 가능합니다.
+
+
+5.endswith()에 대하여
+(1)기본 구조 = 문자열.endswith(접미사)
+(2)접미사를 튜플로 주면 “이 중 하나로 끝나면 True” 예)"photo.jpeg".endswith((".jpg", ".jpeg", ".png"))  # True
+(3)특정 구간만 잘라서 검사도 가능 
+  예)s = "abc_def_ghi"
+     s.endswith("def", 0, 7)   # True  (s[0:7] == "abc_def")
+
