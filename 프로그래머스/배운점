@@ -33,3 +33,7 @@ myString.translate(table) : “표대로 변환/삭제 실행”
 if는 “두 종류”로 쓰이기 때문
 (1)필터용 if (조건이 참인 것만 “걸러내기”) > if만 쓸 경우 > 무조건 for문 뒤
 (2)삼항연산자 if (조건에 따라 “값을 바꾸기”) > if else, if elif else 등 > 상관 없지만 보통 for문 앞
+
+
+8. eval()
+eval()은 문자열로 된 파이썬 “표현식(expression)”을 실제 코드처럼 평가해서 결과를 돌려주는 함수
