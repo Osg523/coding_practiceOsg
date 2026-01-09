@@ -1,0 +1,1 @@
+solution=lambda str_list, ex:''.join(i for i in str_list if i.find(ex) == -1)
