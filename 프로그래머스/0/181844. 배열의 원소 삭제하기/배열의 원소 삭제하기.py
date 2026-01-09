@@ -1,0 +1,1 @@
+solution = lambda arr, delete_list:[i for i in arr if not i in delete_list]
