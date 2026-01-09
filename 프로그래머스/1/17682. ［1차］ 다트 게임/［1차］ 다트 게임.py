@@ -12,7 +12,7 @@ def solution(dartResult):
             dartResult1.append(num1)
             dartResult1.append(i)
             num1 = ''
-        if i == '*' or i == '#':
+        elif i == '*' or i == '#':
             dartResult1.append(i)
     for i in dartResult1[1:]:
         if i.isdigit():
