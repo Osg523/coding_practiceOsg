@@ -1,0 +1,1 @@
+solution = lambda myString, pat: int(pat in myString.translate(str.maketrans('AB','BA')))
