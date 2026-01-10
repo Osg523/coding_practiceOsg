@@ -1,0 +1,1 @@
+solution = lambda my_str, n: [my_str[i:i+n] for i in range(0,len(my_str),n)]
