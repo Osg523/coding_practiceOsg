@@ -9,4 +9,4 @@ def solution(chicken):
         chicken = ㅁ + ㅠ  
         
     return answer
-    return answer
+
