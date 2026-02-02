@@ -1,0 +1,1 @@
+solution = lambda x:True if not x % sum(int(i) for i in list(str(x))) else False
