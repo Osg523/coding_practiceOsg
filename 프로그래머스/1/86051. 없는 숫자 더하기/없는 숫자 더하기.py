@@ -1,0 +1,1 @@
+solution = lambda numbers: sum(range(0,10)) - sum(numbers)
